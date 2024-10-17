@@ -17,7 +17,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Roboto", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 @layer utilities {
@@ -27,25 +27,9 @@ body {
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Regular.woff2") format("woff2"),
-    url("./fonts/Roboto-Regular.woff") format("woff");
+  font-family: "Lexend Deca";
+  src: url("./fonts/LexendDeca-Regular.woff2") format("woff2"),
+    url("./fonts/LexendDeca-Regular.woff") format("woff");
   font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Medium.woff2") format("woff2"),
-    url("./fonts/Roboto-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Bold.woff2") format("woff2"),
-    url("./fonts/Roboto-Bold.woff") format("woff");
-  font-weight: 700;
   font-style: normal;
 }
