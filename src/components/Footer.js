@@ -4,7 +4,7 @@ import React from "react";
 import { footerLinks } from "../../constants";
 const Footer = () => {
   return (
-    <footer className="flex items-baseline justify-between gap-4 px-4 py-8 bg-slate-400">
+    <footer className="flex items-baseline justify-between gap-4 px-4 py-8">
       <div>
         <Link href="/">
           <Image

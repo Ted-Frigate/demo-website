@@ -37,7 +37,7 @@ const Header = () => {
         />
       </Link>
       <nav>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-8">
           {navLinks.map((link) => (
             <Link className="uppercase" key={link.title} href={link.path}>
               {link.title}
