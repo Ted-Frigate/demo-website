@@ -1,33 +1,33 @@
 import Contact from "@/components/Contact";
 import CustomButton from "@/components/CustomButton";
 import CustomTitle from "@/components/CustomTitle";
-import { companyInfo } from "../../constants";
-import Image from "next/image";
 import InfoSection from "@/components/InfoSection";
 
 export default function Home() {
   return (
     <div>
-      <div className="text-center bg-slate-400 py-48 mb-20">
-        <h1 className="text-6xl text-white font-bold mb-5">
+      {/* Hero Section */}
+      <div className="text-center bg-slate-400 py-24 md:py-48 mb-16 md:mb-20">
+        <h1 className="text-4xl md:text-6xl text-white font-bold mb-5">
           혁신적인 디지털 솔루션
         </h1>
-        <p className="text-lg font-medium tracking-wider text-white mb-10">
+        <p className="text-md md:text-lg font-medium tracking-wider text-white mb-6 md:mb-10">
           다양한 산업에서 맞춤형 디지털 솔루션을 제공하는 종합 IT 서비스
           회사입니다.
         </p>
-        <button className="bg-white text-black px-8 py-3 uppercase tracking-widest">
-          Learn more
-        </button>
+
+        <CustomButton title="Learn more" />
       </div>
 
+      {/* Title Section */}
       <CustomTitle
         title="What we believe in"
         subtitle="비즈니스 솔루션, ERP, 3D 모델링, AI 서비스
 ‍당신의 아이디어를 현실로 만듭니다."
       />
 
-      <div className="flex flex-col">
+      {/* Info Sections */}
+      <div className="flex flex-col gap-10">
         <InfoSection
           subtitle="Company"
           title="Who we are"
@@ -44,6 +44,8 @@ export default function Home() {
           imagePosition="right"
         />
       </div>
+
+      {/* Contact Section */}
       <Contact />
     </div>
   );
