@@ -8,7 +8,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="flex flex-col gap-7 w-1/2">
+    <form className="flex flex-col gap-7 w-full md:w-2/3 md:mx-auto lg:w-3/4">
       <h1 className="text-3xl mb-3">Contact us</h1>
       <p className="mb-5">
         궁금한 점이 있으시면 아래로 연락주시기 바랍니다. 담담당자가 확인 후
